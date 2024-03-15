@@ -1,0 +1,94 @@
+[data-step-level="1"] {
+  --background-color: #E4F1FE;
+}
+
+[data-step-level="2"] {
+  --background-color: #F2E4FE;
+}
+
+[data-step-level="3"] {
+  --background-color: #FEE4E4;
+}
+
+[data-step-level="4"] {
+  --background-color: #FEF8E4;
+}
+
+[data-step-level="5"] {
+  --background-color: #E4FEF2;
+}
+
+[data-step-level="6"] {
+  --background-color: #FEFEE4;
+}
+
+[data-step-level="7"] {
+  --background-color: #FCF1B8;
+}
+
+[data-step-level="8"] {
+  --background-color: #E6F6FF;
+}
+
+[data-step-level="9"] {
+  --background-color: #FFF0F4;
+}
+
+[data-step-level="10"] {
+  --background-color: #FAF3FA
+}
+
+
+
+
+
+[data-step-type="workflow"] {
+  --background-color: aquamarine; /* Default color */
+}
+
+[data-step-level="1"] {
+  --background-color: #FFC300;
+}
+
+[data-step-level="1"] {
+  --background-color: #E4F1FE;
+}
+
+[data-step-level="2"] {
+  --background-color: #F2E4FE;
+}
+
+[data-step-level="3"] {
+  --background-color: #FEE4E4;
+}
+
+[data-step-level="4"] {
+  --background-color: #FEF8E4;
+}
+
+[data-step-level="5"] {
+  --background-color: #E4FEF2;
+}
+
+[data-step-level="6"] {
+  --background-color: #FEFEE4;
+}
+[data-step="step"] {
+  background-color: var(--background-color) !important;
+}
+
+div:has(> [data-step="step:header"]) {
+  background-color: var(--background-color) !important;
+}
+
+
+
+
+/* data-step={"step"}
+data-step-type={stepInfo.stepType}
+data-step-category={stepInfo.stepCategory}
+data-step-level={indices.length} */
+
+.level-0 { background-color: #f0f0f0; } /* Light gray */
+.level-1 { background-color: #e0e0e0; } /* Lighter gray */
+.level-2 { background-color: #d0d0d0; } /* Even lighter gray */
